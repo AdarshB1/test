@@ -1,19 +1,11 @@
-/* .div1{
-    width : 70%; 
-    height: 30px;
-    float : left;}
-    */
+     
 .div2 {
     width: 800px;
     height: 250px;
     margin-top: 210px;
-
-
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 
 }
 
@@ -36,40 +28,33 @@
 
 label a {
     text-decoration: none;
-    color: #0a0a0a;
+    color: #70dbf4;
 }
 
 
 
 #log {
     
-    margin-top: 11%;
+     margin-top: 11%; 
     width: 100%;
-    height: 30px;
-    /* left: 60%;
-    right: 15%;
-    top: 50%;
-    bottom: 20%; */
+    height: 40px;
+    border:none;
  
     background: #04C45C;
     border-radius: 5px;
     color: white;
-   
-
 }
 
 #google {
     width: 100%;
-    height: 30px;
+    height: 40px;
     margin-top: 11%;
-    /* left: 60%;
-    right: 15%;
-    top: 55%;
-    bottom: 15%; */
-
-    /* 800 */
+  
     color: white;
-
+    border:none;
     background: #2D3748;
     border-radius: 5px;
 }
+/* iconfinder_Google_1298745 1 */
+
+

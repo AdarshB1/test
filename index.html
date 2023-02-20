@@ -3,7 +3,29 @@
 <head>
     <title>this login page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="script.js"></script>
+    <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        input[type=password], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+    </style>
+        
 </head>
 
 <body>
@@ -29,12 +51,19 @@
                         <label><a href="#">Forgot password?</a></label>
                     </div>
                 </div>
-                <br>
+                
                 <div >
                     <input type="submit" id="log" value="Login Now" >
+                    
+                    <button id="google" type="submit" ><i class="fa-brands fa-google"></i> Or sign-in with google</button>
                 </div> 
+                <div >
+                    <!-- <input type="submit" id="google" value="Or sign-in with google"> -->
+                    
+                </div>
+                <br>
                 <div>
-                    <input type="submit" id="google" value="Or sign-in with google">
+                    <label>Dont have an account  <a href="#">Join free Today</a></label>
                 </div>
             </div>
 
